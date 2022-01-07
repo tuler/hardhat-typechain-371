@@ -1,5 +1,6 @@
 import { expect } from "chai";
 import { ethers } from "hardhat";
+import { describe, it } from "mocha";
 
 describe("Greeter", function () {
   it("Should return the new greeting once it's changed", async function () {
